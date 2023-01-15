@@ -5,7 +5,10 @@
 </template>
 
 <script setup>
-
+  definePageMeta({
+    layout: 'products'
+  })
+  await useFetch('')
 </script>
 
 <style lang="scss" scoped>
